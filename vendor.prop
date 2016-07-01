@@ -1,6 +1,9 @@
 # AAL
 ro.vendor.mtk_aal_support=1
 
+# Audio
+ro.config.vc_call_vol_steps=7
+
 # Camera
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
