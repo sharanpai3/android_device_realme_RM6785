@@ -34,7 +34,7 @@ system_ext                                       /system_ext           ext4    r
 /dev/block/platform/bootdevice/by-name/logo      /logo                 emmc    defaults                                            defaults
 
 # External-Devices (SDCARD | OTG)
-/devices/platform/externdevice*                  auto                  auto    defaults                                            voldmanaged=sdcard1:auto
+/devices/platform/externdevice*                  auto                  auto    defaults                                            voldmanaged=sdcard1:auto,encryptable=userdata
 /devices/platform/usb3_xhci*                     auto                  vfat    defaults                                            voldmanaged=usbotg:auto
 
 # Swap
