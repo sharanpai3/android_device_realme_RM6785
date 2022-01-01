@@ -98,12 +98,6 @@
     -->
     <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,115 L -382,115 L -382,0 Z</string>
     
-    <!-- MMS user agent string -->
-    <string name="config_mms_user_agent">Android-Mms/0.1</string>
-
-    <!-- MMS user agent prolfile url -->
-    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
-
     <!--  Define Google play service package for FRP-->
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
 
