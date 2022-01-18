@@ -261,6 +261,15 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Safetynet Hax
+ifeq ($(WITH_SAFETYNET_HAX),true)
+PRODUCT_PACKAGES += \
+    ih8sn
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/etc/ih8sn.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/ih8sn.conf
+endif
+
 # Secure element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
