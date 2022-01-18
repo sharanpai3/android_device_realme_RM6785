@@ -60,6 +60,9 @@ function blob_fixup {
         vendor/lib64/libwifi-hal-mtk.so)
             "$PATCHELF" --set-soname libwifi-hal-mtk.so "$2"
             ;;
+        vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc)
+            sed -i '/vts/Q' "$2"
+            ;;
     esac
 }
 
