@@ -8,3 +8,4 @@
 
 # Devices
 /dev/goodix_fp u:object_r:goodix_device:s0
+/dev/pn553 u:object_r:nfc_device:s0
