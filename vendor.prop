@@ -43,6 +43,9 @@ ro.netflix.bsp_rev=MTK6785-18787-1
 # FRP
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 
+# Fingerprint
+fingerprint.nocleanup=true
+
 # GPS
 ro.oppo.mtk_gps_mpe=1
 ro.vendor.mtk_log_hide_gps=0
