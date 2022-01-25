@@ -1,0 +1,1 @@
+allow mtk_hal_sensors proc_sensor_feature:file r_file_perms;

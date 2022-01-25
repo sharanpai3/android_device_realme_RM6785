@@ -2,3 +2,4 @@ genfscon sysfs /devices/platform/fpc_interrupt u:object_r:sysfs_fingerprint:s0
 genfscon proc  /touchpanel u:object_r:proc_tp:s0
 genfscon proc  /fp_id u:object_r:proc_fingerprint:s0
 genfscon proc  /fastchg_fw_update u:object_r:proc_fastchg_fw:s0
+genfscon proc  /oplusSensorFeature/is_support_mtk_cali u:object_r:proc_sensor_feature:s0
