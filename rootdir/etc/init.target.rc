@@ -64,3 +64,9 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     class hal
     user nfc
     group nfc
+
+service charger /system/bin/chargeonlymode
+    class charger
+    critical
+    group system graphics
+    seclabel u:r:healthd:s0
