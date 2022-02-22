@@ -50,21 +50,20 @@ framework/mediatek-ims-legacy.jar
 -system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE=vendor.mediatek.hardware.videotelephony@1.0.system_ext
 -system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE=vendor.mediatek.hardware.videotelephony@1.0.system_ext
 
-# Kernel Power Off Charging (KPOC)
--bin/kpoc_charger
-etc/init/kpoc_charger.rc
--lib/libshowlogo.so
+# DRM Widevine
+-odm/lib64/liboemcrypto.so
+-odm/lib/liboemcrypto.so
 
-# NFC - from RMX2002GDPR_11_C.13
-odm/etc/init/init.pn8x.nfc.rc|5d568e326250eba9d9f8a555287a969aadc1be1d
-odm/etc/init/init.pn8x.se.rc|8af32fd189561fa90b91338ce729db63d3dad5f8
-odm/etc/libnfc-nxp-pnscr.conf|c9bbf87032cf73dc0b76793a15eff838f11ebf84
-odm/etc/nfc/libnfc-nxp.conf_19661:vendor/etc/libnfc-nxp.conf|d2bc7b3cf536f8f16db67cf67ac06a64548a5f05
--odm/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
--odm/lib/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
--odm/lib/libpnscr2.so|434f0005a0c5ba8c9af719d45bc004a04ae445c7
--odm/lib/libsn100u_fw.so|4adda2c9449cdc8f66fc3c653153f8b69c7dc78c
--odm/lib64/libpnscr2.so|e0d378017017bd762cf42dded5597fe7f62904cd
+# NFC
+odm/etc/init/init.pn8x.nfc.rc
+odm/etc/init/init.pn8x.se.rc
+odm/etc/libnfc-nxp-pnscr.conf
+odm/etc/nfc/libnfc-nxp.conf_19661:vendor/etc/libnfc-nxp.conf
+-odm/lib/libpn553_fw.so
+-odm/lib/libpn557_fw.so
+-odm/lib/libpnscr2.so
+-odm/lib/libsn100u_fw.so
+-odm/lib64/libpnscr2.so
 
 # ODM
 -odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service

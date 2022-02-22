@@ -138,12 +138,6 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64
 
-# KPOC
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.0 \
-    libshim_showlogo \
-    libsuspend
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.RM6785
